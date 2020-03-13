@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MaRéu</string>
+    <string name="default_text">Default text</string>
+    <string name="default_content_description">Default content description</string>
+    <string name="content_description_delete_meeting">Supprimer une réunion</string>
+    <string name="toast_text_delete_meeting">La réunion a bien été supprimée !</string>
+    <string name="meeting_room_name">Nom de la salle de réunion</string>
+    <string name="meeting_topic">Sujet de la réunion</string>
+    <string name="cancel">Annuler</string>
+    <string name="add">Ajouter</string>
+    <string name="list_of_participants">Liste des participants (mails)</string>
+    <string name="date">Date</string>
+    <string name="from">De</string>
+    <string name="to">à</string>
+    <string name="error_empty_field">Ce champ ne peut pas être vide</string>
+    <string name="add_new_meeting">La nouvelle réunion a été ajoutée</string>
+    <string name="error_add_new_meeting">Champ invalide ou champ manquant</string>
+    <string name="abort_add_meeting">L\'ajout d\'une réunion a été abandonnée</string>
+    <string name="action_add">Ajouter</string>
+    <string name="error_invalid_field">Ce champ n\'est pas valide</string>
+    <string name="error_invalid_date_format">Format de la date invalide</string>
+    <string name="error_date_passed">La date ne peut pas être passée</string>
+    <string name="error_invalid_time_format">Format de l\'heure invalide</string>
+    <string name="error_invalid_email">L\'adresse mail est invalide</string>
+    <string name="error_time_comparaison">L\'heure de fin ne peut pas être antérieure à l\'heure de
+        début</string>
+    <string name="error_meeting_room_already_booked">La salle de réunion est déjà réservée</string>
+    <string name="error_time_passed">L\'heure ne peut pas être passée</string>
+    <string name="menu_filter">Filtrage</string>
+    <string name="item_filter_by_date">Filtre par date</string>
+    <string name="item_filter_before_date">Avant la date sélectionnée</string>
+    <string name="item_filter_match_date">Correspond à la date sélectionnée</string>
+    <string name="item_filter_after_date">Après la date sélectionnée</string>
+    <string name="item_raz">Enlever le filtre</string>
+    <string name="item_filter_match_room_name">Correspond au nom de la salle de réunion</string>
+    <string name="date_filter">Filtre par date</string>
+    <string name="room_filter">Filtre par salle</string>
+    <string name="select_filter">Choix des filtres</string>
+    <string name="reset">Remise à zéro</string>
+</resources>
