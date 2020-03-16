@@ -16,8 +16,8 @@ class MeetingTest {
     @Test
     void givenValidEmailAddresses_whenInstatiateMeeting_thenGetValidParticipants() {
         List<String> participants  = Arrays.asList(
-                "p.roger@gmail.com",
-                "s.ramen@gmail.fr");
+                "audreyluce54@gmail.com",
+                "audrey_luce@hotmail.fr");
 
         Meeting meeting = new Meeting("Salle 1",
                 fromTime("11:00"),
@@ -31,8 +31,8 @@ class MeetingTest {
     @Test
     void givenInvalidEmailAddresses_whenInstatiateMeeting_thenGetValidParticipants() {
         List<String> participants  = new LinkedList<>(Arrays.asList(
-                "p.roger@gmail.com",
-                "s.ramen@gmail.fr",
+                "audreyluce54@gmail.com",
+                "audrey_luce@hotmail.fr",
                 invalid_email));
 
         Meeting meeting = new Meeting("Salle 1",

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.widget.DatePicker;
 import android.widget.TimePicker;
 
+import androidx.test.espresso.Espresso;
 import androidx.test.espresso.contrib.PickerActions;
 import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
@@ -107,6 +108,7 @@ public class AllActivitiesTest {
                 .perform(click());
         // topic
         onView(withId(R.id.topic)).perform(typeText(TOPIC));
+        Espresso.closeSoftKeyboard();
         // date
         onView(withId(R.id.date)).perform(click());
         onView(withClassName(Matchers.equalTo(DatePicker.class.getName())))
@@ -164,6 +166,7 @@ public class AllActivitiesTest {
                 .perform(click());
         // topic
         onView(withId(R.id.topic)).perform(typeText(TOPIC));
+        Espresso.closeSoftKeyboard();
         // date
         onView(withId(R.id.date)).perform(click());
         onView(withClassName(Matchers.equalTo(DatePicker.class.getName())))

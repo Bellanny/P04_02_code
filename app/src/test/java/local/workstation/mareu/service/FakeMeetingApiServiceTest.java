@@ -30,7 +30,7 @@ class FakeMeetingApiServiceTest {
                 fromTime("14:00"),
                 fromTime("15:00"),
                 "sujet",
-                Arrays.asList("p.roger@gmail.com", "s.ramen@gmail.fr"));
+                Arrays.asList("audreyluce54@gmail.com", "audrey_luce@hotmail.fr"));
 
         // Initialize API with 1 Meeting
         mApi.addMeeting(mMeeting);
@@ -45,7 +45,7 @@ class FakeMeetingApiServiceTest {
                 Calendar.getInstance(),
                 Calendar.getInstance(),
                 "sujet",
-                Arrays.asList("p.roger@gmail.com", "s.ramen@gmail.fr"));
+                Arrays.asList("audreyluce54@gmail.com", "audrey_luce@hotmail.fr"));
 
         try {
             mApi.addMeeting(meeting);
@@ -62,7 +62,7 @@ class FakeMeetingApiServiceTest {
                 fromTime(start),
                 fromTime(end),
                 "sujet",
-                Arrays.asList("p.roger@gmail.com", "s.ramen@gmail.fr"));
+                Arrays.asList("audreyluce54@gmail.com", "audrey_luce@hotmail.fr"));
 
         assertThrows(MeetingApiServiceException.class, () -> mApi.addMeeting(meeting));
     }
